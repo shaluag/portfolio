@@ -1,0 +1,367 @@
+@media (min-width : 1350px) {
+    .sec-content{
+        justify-content: center;
+    }
+}
+
+@media (max-width : 1257px) {
+    .graphLine{
+        padding: 12px 12px ;
+    }
+    .sec-content{
+        justify-content: center;
+    }
+}
+
+@media (max-width : 1257px) {
+    .graphLine{
+        padding: 12px 10px ;
+    }
+    
+}
+
+@media (max-width : 1155px) {
+   .sec-content{
+    justify-content: center;
+
+   }
+
+   .graphLine .level1 div {
+    height: 3px;
+    width: 500px;
+    background-color: rgb(247, 15, 247);
+}
+
+   .aboutMe {
+
+    margin-left: 0px;
+    padding: 30px 20px;
+    max-width: 500px;
+    flex-direction: column;
+    
+   }
+
+   .box{
+    padding: 40px ;
+   }
+
+   .projects{
+    padding: 12px 0px;
+
+   }
+
+   .projects img{
+    height: 90px;
+    width: 130px;
+   }
+
+   .sec-3-content{
+    padding: 0px 25px;
+   }
+
+}
+
+@media (max-width : 1225px) {
+    .intro{
+        font-size: 2.0rem;
+        white-space: nowrap;
+    }
+
+    .intro p{
+        white-space: normal;
+    }
+}
+
+@media (max-width : 1051px){
+    .introImage img {
+        height: 460px;
+        width: 430px;
+    }
+}
+@media (max-width : 982px){
+    .introImage img {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width : 965px){
+    #sec-1{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box{
+        padding: 15px;
+    }
+
+    .projects{
+        overflow: auto;
+    }
+    .projects img {
+        height: 50px;
+        width: 100px;
+    }
+
+    .nav {
+        display: flex;
+        margin-right: 50px;
+        padding-right: 0px;
+        gap: 50px;
+    }
+
+    .nav{
+        display: none;
+    }
+    .menuBar{
+        display: block;
+        color: rgb(247, 15, 247);
+        padding-right: 40px;
+    }
+    .introImage{
+        display: none ;
+    }
+
+    .sec-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skillsChart{
+        max-width: 550px;
+    }
+
+    .aboutMe{
+        flex-direction: row;
+        padding: 50px 40px;
+    }
+
+}
+
+@media (max-width : 871px){
+    .sec-3-content {
+        padding: 0px 25px;
+        flex-direction: column;
+    }
+
+    .box {
+        padding: 20px;
+        max-width: 500px;
+    }
+    .sec-3-content {
+    
+        align-items: center;
+    }
+}
+
+@media (max-width : 695px){
+    #emailBox{
+        padding: 100px 20px ;
+    }
+
+    .projects img {
+        height: 50px;
+        width: 70px;
+    }
+
+    .nameBar input, .contactBar input {
+        height: 20px;
+        width: 200px;
+       
+    }
+
+    .fullText input[type="text"] {
+       
+        height: 100px;
+        width: 180px;
+    
+    }
+
+    .box {
+        padding: 20px;
+        max-width: 440px;
+    }
+
+}
+
+@media (max-width : 695px){
+
+    .skillsChart {
+        max-width: 380px;
+    }
+
+    .graphLine div {
+        height: 3px;
+        width: 320px;
+        background-color: gray;
+    }
+
+    .graphLine .level1 div{
+        height: 3px;
+        width: 300px;
+        background-color: rgb(247, 15, 247);
+    }
+}
+
+@media (max-width : 540px ){
+
+    .intro {
+        font-size: 1.5rem;
+        padding-left: 20px;
+        letter-spacing: 4px;
+    }
+
+    .heading3 p{
+        padding: 0px 0px;
+    }
+
+    .aboutMe img {
+        height: 200px;
+        width: 200px;
+    
+    }
+
+    .aboutMe{
+        flex-direction: column;
+    }
+
+    .nameBar input, .contactBar input {
+        height: 20px;
+        width: 150px;
+    }
+
+    .fa-bars{
+        padding-left: 10px;
+    }
+
+    .logo {
+        color: white;
+        font-size: 1.6rem;
+        padding-left: 20px;
+    }
+
+    .socialLinks2{
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width : 400px){
+    .nameBar input, .contactBar input {
+    height: 20px;
+    width: 110px;
+}
+
+.heading3 p {
+    font-size: 1rem;
+    color: white;
+    opacity: 0.5;
+    padding: 0px 0px;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.intro {
+    font-size: 1rem;
+    padding-left: 20px;
+    letter-spacing: 4px;
+}
+
+.secondHeading {
+    font-size: 1.2rem;
+   
+}
+
+.sec-content{
+    font-size: 1.1rem;
+}
+
+.graphLine div {
+    height: 3px;
+    width: 260px;
+}
+
+.graphLine .level1 div {
+    height: 3px;
+    width: 230px;
+}
+.graphLine .level2 div {
+    height: 3px;
+    width: 210px;
+}
+.graphLine .level4 div {
+    height: 3px;
+    width: 150px;
+}
+
+.box {
+    padding: 25px 0px;
+    max-width: 440px;
+}
+
+.box:nth-child(2) {
+    transform: scale(1.01);
+    background-color: rgb(72, 68, 93);
+}
+.introPara {
+    font-size: 1rem;
+    position: relative;
+    bottom: 24px;
+    font-weight: lighter;
+    padding-right: 20px;
+    opacity: 0.4;
+}
+
+#sec-1{
+    padding-top: 0px;
+}
+
+#sec-1 .btn {
+    bottom: 40px;
+}
+
+.heading3 {
+    font-size: 1.8rem;
+    padding: 12px 0px;
+}
+}
+
+@media (max-width : 320px){
+    .aboutMe {
+        padding: 8px 26px;
+    }
+    .aboutMe img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .abContent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        padding: 4px 30px;
+    }
+    .abPara {
+        width: 155px;
+        font-size: 0.7rem;
+        opacity: 0.5;
+        padding: 0px 0px;
+    }
+
+    .abContent>span {
+        font-size: 1rem;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width : 863px) {
+    #emailBox{
+        padding: 80px 9px;
+    }
+}
+
